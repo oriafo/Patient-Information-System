@@ -1,0 +1,46 @@
+.reg{                       /*aligning the input field to fit card*/
+    padding: 10px;
+}
+
+.regImage img{              /*adjusting the right image to fit card*/
+    border-radius: 50%;
+    width: 100%;
+    height: 80%;
+}
+
+.pageName{                  /*adding color to the page name text*/
+    color: rgb(3, 180, 26);
+}
+
+.shadow{                    /*adding shadow to the right card*/
+    
+    border-radius: 30%;
+    width: 100%;
+}
+
+.container .board{          /*for removing round radius of the card*/
+    border-radius: 0%
+}
+
+.top-color{        /*for the navbar buttons*/
+    display:inline;
+    background-color: rgb(83, 170, 94);
+    color: white;   
+}
+
+.navbar .top-color:hover{        /*for the navbar buttons*/
+    background-color: rgb(98, 109, 206);
+    color: white; 
+}
+
+.nav-item{              /*for the navbar buttons positioning*/
+    
+    padding: 0.5%
+}
+
+.back{
+    padding-bottom: 20px;
+}
+.search{
+    width:30%;
+}

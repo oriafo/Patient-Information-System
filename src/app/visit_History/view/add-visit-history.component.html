@@ -1,0 +1,71 @@
+<div class="card text-black" style="border-radius: 25px;" >
+  <div class="card-body p-md-5" >
+      <div class="text-right back">
+          <button type="button" class="btn btn-primary btn-lg top-color" (click)="back()">Back</button>
+      </div>
+                  <div class="row justify-content-center"  style="background-color: #eee; border-radius: 25px;">
+                    
+                    <div class="col-md-10 col-lg-12  col-xl-12 order-2 order-lg-1" >
+      
+                      <p class="text-center h1 fw-bold mb-5 mx-1 mx-md-4 mt-4 pageName">Add Patient Visit History</p>
+      
+                      <form class="mx-1 mx-md-4" >
+      
+                            <div class="d-flex flex-row align-items-center mb-4">
+
+                                <div class="form-outline flex-fill mb-0">
+                                    <input required name="patientInfo" type="text" id="id" [(ngModel)]="visitHistory.patientInfo" class="form-control" readonly>
+                                    <label class="form-label" for="id">Patient Info</label>
+                                  </div>
+              
+
+                                <div class="form-outline flex-fill mb-0 reg">
+                                    <input required name="visit history" type="text" id="VH" [(ngModel)]="visitHistory.visitHistoryId" class="form-control"/>
+                                    <label class="form-label" for="VH">Visit History Id</label>
+                                  </div>
+
+                                  <div class="form-outline flex-fill mb-0">
+                                      <input required name="dateVisited" type="date" id="d" [(ngModel)]="visitHistory.dateVisited" class="form-control"/>
+                                      <label class="form-label" for="d">Date Visited</label>
+                                    </div>
+                              
+                                
+                                    </div>
+                                    
+                                    <div class="d-flex flex-row align-items-center mb-4">
+                                    <div class="form-outline flex-fill mb-0 reg">
+                                          <input required name="family history" type="text" id="fh" [(ngModel)]="visitHistory.familyHistory" class="form-control"/>
+                                          <label class="form-label" for="fh">family history</label>
+                                        </div>
+                              
+                                      
+                                          <div class="form-outline flex-fill mb-0">
+                                            <input required name="health condition" type="text" id="hc" [(ngModel)]="visitHistory.health_condition" class="form-control"/>
+                                            <label class="form-label" for="hc">Health Condition</label>
+                                          </div>
+
+                                          <div class="form-outline flex-fill mb-0 reg">
+                                            <input required name="allergy" type="text" id="all" [(ngModel)]="visitHistory.allergy" class="form-control"/>
+                                            <label class="form-label" for="all">Allergies</label>
+                                          </div>
+                                
+                                            </div>
+
+                                            <div class="form-outline flex-fill mb-0 reg">
+                                                <input required name="medication" type="text" id="m" [(ngModel)]="visitHistory.medication" class="form-control"/>
+                                                <label class="form-label" for="m">Medication</label>
+                                              </div>
+                       
+                        
+                        <div class="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
+                          <button type="button" class="btn btn-primary btn-lg top-color" (click)="AddVisitHistory()">Submit</button>
+                        </div>
+      
+                      </form>
+      
+                    </div>
+                    
+                   
+                  </div>
+                  </div>
+                  </div>
